@@ -1,0 +1,140 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+
+
+
+.section-1{
+    background-color: slateblue;
+    display: block;
+    padding-bottom: 70px;
+
+    
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    
+}
+a{
+    justify-content: flex-end;
+    margin-top: 30px;
+    color: white;
+    text-decoration: none;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+}
+.middle{
+    display: flex;
+    justify-content: space-around;
+    flex: 1 1 400px;
+    align-items: start;
+    padding:50px 150px ;
+   
+}
+img{
+    width: 400px;
+    height: 220px;
+    
+}
+h4{
+   
+    text-align: left;
+    margin: 5px;
+    width: 500px;
+    
+}
+h1{
+    font-size: 55px;
+    margin: 5px;
+    width: 350px;
+    color: white    ;
+   
+   
+}
+
+.box1,
+.box2,
+.box3,
+.box4{
+    border: 5px solid blue;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+   background-color: brown;
+  
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 30px;
+    align-items: center;
+}
+.info{
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+}
+.names{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 250px 50px 250px;
+}
+.section-3{
+    background-color: cadetblue;
+}
+.quote{
+    text-align:left ;
+    padding: 150px 300px 0px 300px;
+    font-size: 36px;
+}
+.author{
+    font-size: 30px;
+    text-align: end;
+    margin: auto;
+    padding: 0px 290px 100px 0px;
+    font-weight: bolder;
+}
+.section-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 100px;
+    background-color: cornflowerblue    ;
+    margin: 100px 150px;
+    border-radius: 10px;
+}
+.button-1{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 7px 30px;
+    font-size: 20px;
+    margin: 5px;
+}
+.button-2{
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 7px 30px;
+    font-size: 20px;
+}
+.section-5{
+    background-color: mediumslateblue;
+    color: navy;
+    padding: 30px;
+    font-size: 20px;
+    text-align: center  ;
+}
